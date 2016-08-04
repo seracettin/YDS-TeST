@@ -8,5 +8,5 @@ açıp aşağıdaki formatta cevapları yazın:
 2.B
 3.C
 ...
-alt alta olacak şekilde ve txt dosyasını kaydedin sonra uygulamayı açıp ve sol üstte file kısmına tıklayıp orda bir 
-seçenek var.Dosyadan cevap anahtarı yükleyin diye.Burdan cevap anahtarı yükleyip.Teste başlayabilirsiniz.
+alt alta olacak şekilde ve txt dosyasını kaydedin sonra uygulamayı açıp ve sol üstte file kısmına tıklayıp orda bir seçenek
+var.Dosyadan cevap anahtarı yükle diye.Burdan kaydettiğiniz txt dosyasını yükleyip.Teste başlayabilirsiniz.
