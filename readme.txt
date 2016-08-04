@@ -1,7 +1,12 @@
-Programın ister kanyank kodlarını indirip deneyebilir ya da aşağıdaki linkten setup(kurulum için) dosyasını indirip çalıştırabilirsiniz.
+ProgramÄ±n ister kanyank kodlarÄ±nÄ± indirip deneyebilir ya da aÅŸaÄŸÄ±daki linkten setup(kurulum iÃ§in) dosyasÄ±nÄ± indirip Ã§alÄ±ÅŸtÄ±rabilirsiniz.
 link:https://www.dropbox.com/s/x1jghw13vko1rs5/YDS%20Coz-setup.exe?dl=0
-Programın tam verimli çalışması için aşagıdaki adımları deneyin.
+ProgramÄ±n tam verimli Ã§alÄ±ÅŸmasÄ± iÃ§in aÅŸagÄ±daki adÄ±mlarÄ± deneyin.
 
-1-Uygulama ilk açıldığında deneme amaçlı bir cevap anahtarı dosyası mevcuttur.Yeni cevap anahtarı yüklemek için bir txt dosyası 
-açıp aşağıdaki formatta cevapları yazın ve kaydedin sonra uygulamayı açın ve sol üstte file kısmına tıklayınız orda bir 
-seçenek var.Dosyadan cevap anahtarı yükleyin diye.Burdan cevap anahtarı yükleyip.Teste başlayabilirsiniz.
+1-Uygulama ilk aÃ§Ä±ldÄ±ÄŸÄ±nda deneme amaÃ§lÄ± bir cevap anahtarÄ± dosyasÄ± mevcuttur.Yeni cevap anahtarÄ± yÃ¼klemek iÃ§in bir txt dosyasÄ± 
+aÃ§Ä±p aÅŸaÄŸÄ±daki formatta cevaplarÄ± yazÄ±n:
+1.A
+2.B
+3.C
+...
+alt alta olacak ÅŸekilde ve txt dosyasÄ±nÄ± kaydedin sonra uygulamayÄ± aÃ§Ä±p ve sol Ã¼stte file kÄ±smÄ±na tÄ±klayÄ±p orda bir 
+seÃ§enek var.Dosyadan cevap anahtarÄ± yÃ¼kleyin diye.Burdan cevap anahtarÄ± yÃ¼kleyip.Teste baÅŸlayabilirsiniz.
