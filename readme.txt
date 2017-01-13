@@ -1,5 +1,6 @@
 Programın ister kanyank kodlarını indirip deneyebilir ya da aşağıdaki linkten setup(kurulum için) dosyasını indirip çalıştırabilirsiniz.
-link:https://www.dropbox.com/s/x1jghw13vko1rs5/YDS%20Coz-setup.exe?dl=0
+link:https://www.dropbox.com/s/0y81ibkecfndcy6/YDS-TeST.zip?dl=0 link tiklandiktan sonra dosyalar zipten çıkartılır ve ydstest-exe
+exe dosyasına tıklayıp çalıştırma yapabilirsiniz.
 Programın tam verimli çalışması için aşagıdaki adımları deneyin.
 
 1-Uygulama ilk açıldığında deneme amaçlı bir cevap anahtarı dosyası mevcuttur.Yeni cevap anahtarı yüklemek için bir txt dosyası 
