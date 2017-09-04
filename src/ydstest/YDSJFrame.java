@@ -19,6 +19,8 @@ import javax.swing.DefaultCellEditor;
 import javax.swing.JFileChooser;
 import javax.swing.JList;
 import javax.swing.JOptionPane;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;
 import javax.swing.filechooser.FileNameExtensionFilter;
@@ -39,11 +41,22 @@ public class YDSJFrame extends javax.swing.JFrame {
     private static int[] checkCell = new int[80];
 
     public YDSJFrame() {
-        readQuestions();
-        initComponents();
-        lblAnswerTotalQues.setText("" + listQuestin.size());
-        for (int i = 0; i < 80; i++) {
-            checkCell[i] = 0;
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+            readQuestions();
+            initComponents();
+            lblAnswerTotalQues.setText("" + listQuestin.size());
+            for (int i = 0; i < 80; i++) {
+                checkCell[i] = 0;
+            }
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(YDSJFrame.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            Logger.getLogger(YDSJFrame.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            Logger.getLogger(YDSJFrame.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (UnsupportedLookAndFeelException ex) {
+            Logger.getLogger(YDSJFrame.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -82,6 +95,7 @@ public class YDSJFrame extends javax.swing.JFrame {
                 break;
             }
         }
+
         tblYdsTable.setValueAt((Object) cu, row, column + 1);
 
     }
@@ -136,8 +150,7 @@ public class YDSJFrame extends javax.swing.JFrame {
         jLabel1.setText("Tek Cevap Goster");
         jLabel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
-        btnClearYdsTable.setBackground(new java.awt.Color(255, 153, 102));
-        btnClearYdsTable.setForeground(new java.awt.Color(255, 255, 255));
+        btnClearYdsTable.setBackground(new java.awt.Color(102, 102, 102));
         btnClearYdsTable.setText("Tabloyu temizle");
         btnClearYdsTable.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
